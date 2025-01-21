@@ -1,0 +1,29 @@
+{
+    "name": "name",
+    "version": "0.1.0",
+    "private": true,
+    "author": "author",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^2.5.0",
+        "axios": "^1.7.9",
+        "eslint": "8.41.0",
+        "eslint-config-next": "13.4.3",
+        "isotope-layout": "^3.0.6",
+        "next": "13.4.3",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-fast-marquee": "^1.6.0",
+        "react-modal-video": "^2.0.0",
+        "react-redux": "^9.2.0",
+        "sass": "^1.62.1",
+        "swiper": "^9.3.2",
+        "wowjs": "^1.1.3"
+    }
+}
