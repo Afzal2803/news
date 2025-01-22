@@ -28,21 +28,21 @@ export default function Contact() {
                                     </div>
                                     <div className="ta-info-lists-wrapper">
                                         <div className="ta-info-lists">
-                                            <h4 className="ta-title">New York</h4>
+                                            <h4 className="ta-title">INDIA</h4>
                                             <ul className="list-unstyled">
-                                                <li><i className="far fa-envelope-open" /> <Link href="mailto:info@webmail.com">info@webmail.com</Link></li>
-                                                <li><i className="far fa-phone" /> <Link href="tel:+999-888-777-66">+999 888 777 66</Link></li>
-                                                <li><i className="far fa-map-marker-alt" /> <p>12/A, Dumb Tower, NYC</p></li>
+                                                <li><i className="far fa-envelope-open" /> <Link href="mailto:blmtech2024@gmail.com">blmtech2024@gmail.com</Link></li>
+                                                <li><i className="far fa-phone" /> <Link href="tel:+91 90140 87362">+91 90140 87362</Link></li>
+                                                <li><i className="far fa-map-marker-alt" /> <p>Plot No. 1-88/2, 5th Floor, Gem Square Building, Pillar No. 1743, Above HDFC Bank, Madhapur, Telangana-500081.</p></li>
                                             </ul>
                                         </div>
-                                        <div className="ta-info-lists">
+                                        {/* <div className="ta-info-lists">
                                             <h4 className="ta-title">London</h4>
                                             <ul className="list-unstyled">
                                                 <li><i className="far fa-envelope-open" /> <Link href="mailto:info@support.com">support@webmail.com</Link></li>
                                                 <li><i className="far fa-phone" /> <Link href="tel:+999-888-555-66">+999 888 555 66</Link></li>
                                                 <li><i className="far fa-map-marker-alt" /> <p>12/A, Booston Studio, UK</p></li>
                                             </ul>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="ta-social-links ta-social-links__big d-flex align-items-center">
                                         <Link href="#"><i className="fab fa-facebook-f" /></Link>

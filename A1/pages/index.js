@@ -23,7 +23,7 @@ export default function Home() {
               <div className="col-xl-12">
                 <div className="ta-section-heading ta-section-heading__long-border mb-50">
                   <h2 className="ta-title ta-title--mid pr-130">
-                    <span className="ta-title__tag">Trending Post</span>
+                    <span className="ta-title__tag">Trending news</span>
                     <span className="ta-long-border" />
                   </h2>
                 </div>

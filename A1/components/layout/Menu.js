@@ -24,7 +24,7 @@ export default function Menu() {
                         {/* </ul> */}
                     </li>
                     <li><Link href="/about-us">About Us</Link></li>
-                    <li className="menu-item-has-children ta-megamenu"><Link href="#0">All News</Link>
+                    {/* <li className="menu-item-has-children ta-megamenu"><Link href="#0">All News</Link>
                         <ul className="sub-menu">
                             <li>
                                 <div className="container-fluid p-0">
@@ -76,7 +76,7 @@ export default function Menu() {
                                                 <h4 className="menu-title">Archive Pages</h4>
                                                 <ul>
                                            
-                                                    {/* <li><Link href="/author">Author Page</Link></li> */}
+                                                 
                                                     <li><Link href="/blog-filter-category">Filter By Category</Link></li>
                                                     <li><Link href="/blog-filter-tag">Filter By Tag</Link></li>
                                                     <li><Link href="/blog-filter-date">Filter By Date</Link></li>
@@ -89,7 +89,7 @@ export default function Menu() {
                                 </div>
                             </li>
                         </ul>
-                    </li>
+                    </li> */}
                     {/* <li className="menu-item-has-children"><Link href="/blog">Pages</Link>
                         <ul className="sub-menu">
                            
@@ -99,7 +99,7 @@ export default function Menu() {
                             <li><Link href="/blog-details-no-sidebar">Blog Details No Sidebar</Link></li>
                         </ul>
                     </li> */}
-                    <li><Link href="/contact">Contact</Link></li>
+                    <li><Link href="/contact">Contact Us</Link></li>
                 </ul>
             </nav>
         </>
