@@ -11,7 +11,7 @@ export default function TrendingSlider1() {
   console.log("newsFeed", newsFeed);
   const payload = {
     page: pages,
-    limit: 10,
+    limit: 9,
     category: [],
     type: "",
     district: [],

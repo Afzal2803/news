@@ -28,20 +28,6 @@ export default function Footer3() {
                     the go with concise news summaries across politics,
                     business, sports, and entertainment.
                   </p>
-                  <div className="ta-social-links pt-40 d-flex align-items-center">
-                    <Link href="/#">
-                      <i className="fab fa-facebook-f" />
-                    </Link>
-                    <Link href="/#">
-                      <i className="fab fa-twitter" />
-                    </Link>
-                    <Link href="/#">
-                      <i className="fab fa-instagram" />
-                    </Link>
-                    <Link href="/#">
-                      <i className="fab fa-youtube" />
-                    </Link>
-                  </div>
                 </div>
               </div>
             </div>
@@ -49,8 +35,7 @@ export default function Footer3() {
             {/* Company Section with Address Beside */}
             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 mt-30">
               <div className="ta-footer-widget widget d-flex justify-content-between align-items-start">
-                {/* Company Links */}
-                <div className="company-links" style={{ marginRight: "30px" }}>
+                <div className="company-links">
                   <h4 className="widget-title">Company</h4>
                   <ul>
                     <li>
@@ -69,13 +54,33 @@ export default function Footer3() {
                     </li>
                   </ul>
                 </div>
-                {/* Address */}
-                <div className="company-address">
-                  <h4 className="widget-title">Address</h4>
-                  <p>Address: Plot No. 1-88/2, 5th Floor,
-                  Gem Square Building, Pillar No. 1743,
-                 Above HDFC Bank, Madhapur,
-                  Telangana-500081</p>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 mt-30">
+              <div className="ta-footer-widget widget">
+                <div className="ta-about-info-widget pr-50">
+                  <div className="company-address">
+                    <h4 className="widget-title">Locate US</h4>
+                    <p>
+                      <span className="fw-semibold">Address : </span> Plot No.
+                      1-88/2, 5th Floor, Gem Square Building, Pillar No. 1743,
+                      Above HDFC Bank, Madhapur, Telangana-500081
+                    </p>
+                  </div>
+                  <div className="ta-social-links pt-20 d-flex align-items-center">
+                    <Link href="/#">
+                      <i className="fab fa-facebook-f" />
+                    </Link>
+                    <Link href="/#">
+                      <i className="fab fa-twitter" />
+                    </Link>
+                    <Link href="/#">
+                      <i className="fab fa-instagram" />
+                    </Link>
+                    <Link href="/#">
+                      <i className="fab fa-youtube" />
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
