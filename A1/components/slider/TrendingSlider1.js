@@ -11,7 +11,7 @@ export default function TrendingSlider1() {
   console.log("newsFeed", newsFeed);
   const payload = {
     page: pages,
-    limit: 9,
+    limit: 15,
     category: [],
     type: "",
     district: [],
@@ -87,12 +87,33 @@ export default function TrendingSlider1() {
     }
     return description;
   };
+  const handleImageError = (e) => {
+         e.target.src = "/images/A1tv-Logo.png"; // Replace with your fallback image path
+         Object.assign(e.target.style, {
+          width: "30rem",
+          height: "15rem",
+          maxWidth: "100%",
+          objectFit:"contain",
+          padding:"10px",
+        });
+        
+       };
+       const handleVideoError = (e) => {
+        e.target.poster = "/images/A1tv-Logo.png"; // Fallback poster image
+        };
   console.log("fuidshfniusadjfhnsif", newsFeed.length);
   return (
     <>
       <div className="ta-owl-nav ta-owl-nav__top-right ta-owl-nav__top-right--top-60 position-relative">
         <div className="rcp-slider-wrapper row">
-          {newsFeed.map((article, index) => (
+        {newsFeed.length === 0 ? (
+            // Show message when no news feed
+            <div className="no-more-news-message">
+              No  More News Feeds
+            </div>
+          ) : (
+            // Show the news articles if available
+            newsFeed.map((article, index) => (
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
               {console.log(article, "asdfghj")}
               <article
@@ -104,6 +125,9 @@ export default function TrendingSlider1() {
                     <video
                       src={article.file}
                       controls
+                     controlsList="nodownload"
+                    //  poster="/images/notFound.png"
+                      onError={handleVideoError}
                       // autoPlay
                       style={{
                         width: "30rem",
@@ -119,6 +143,7 @@ export default function TrendingSlider1() {
                     <img
                       src={article.file}
                       alt="blog"
+                      onError={handleImageError}
                       style={{
                         width: "30rem",
                         height: "15rem",
@@ -146,7 +171,7 @@ export default function TrendingSlider1() {
                     </li>
                   </ul>
                   <h3 className="ta-blog-box__title ta-blog-box__title--small ta-border-effect">
-                    {article.title}
+                    {truncateDescriptionByLetters(article.title, 20)}
                   </h3>
                   <div className="excerpt excerpt__small mt-15">
                     <p className="newsdescription">
@@ -170,7 +195,7 @@ export default function TrendingSlider1() {
                 </div>
               </article>
             </div>
-          ))}
+         ) ))}
         </div>
       </div>
       <div className="pagination-main">

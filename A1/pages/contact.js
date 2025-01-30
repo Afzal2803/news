@@ -44,15 +44,65 @@ export default function Contact() {
                                             </ul>
                                         </div> */}
                                     </div>
-                                    <div className="ta-social-links ta-social-links__big d-flex align-items-center">
-                                        <Link href="#"><i className="fab fa-facebook-f" /></Link>
-                                        <Link href="#"><i className="fab fa-twitter" /></Link>
-                                        <Link href="#"><i className="fab fa-behance" /></Link>
-                                        <Link href="#"><i className="fab fa-linkedin" /></Link>
-                                        <Link href="#"><i className="fab fa-youtube" /></Link>
-                                    </div>
+                                    <div className=" pt-20 d-flex align-items-center gap-1">
+                    <Link
+                      href="https://www.facebook.com/a1tvtelugu"
+                      target="_blank"
+                    >
+                      <img
+                        src="/images/facebook.png"
+                        alt="Facebook"
+                        className="social-icon"
+                      />
+                    </Link>
+                    <Link
+                      href="https://www.instagram.com/a1tv_telugu_news_official/"
+                      target="_blank"
+                    >
+                      <img
+                        src="/images/instagram.png"
+                        alt="Instagram"
+                        className="social-icon"
+                      />
+                    </Link>
+                    <Link href="https://x.com/A1tvTelugu" target="_blank">
+                      <img
+                        src="/images/twitter.png"
+                        alt="Twitter"
+                        className="social-icon"
+                      />
+                    </Link>
+
+                    <Link
+                      href="https://m.youtube.com/channel/UCaU9uyxOfbui4-KF_iMwlpQ"
+                      target="_blank"
+                    >
+                      <img
+                        src="/images/youtube.png"
+                        alt="YouTube"
+                        className="social-icon"
+                      />
+                    </Link>
+                    <Link
+                      href="https://www.linkedin.com/in/a1tv-telugu-news/"
+                      target="_blank"
+                    >
+                      <img
+                        src="/images/linkedin.png"
+                        alt="LinkedIn"
+                        className="social-icon"
+                      />
+                    </Link>
+                    <Link href="https://t.me/a1tvtelugu" target="_blank">
+                      <img
+                        src="/images/telegram.png"
+                        alt="LinkedIn"
+                        className="social-icon"
+                      />
+                    </Link>
+                  </div>
                                 </div>
-                                <div className="col-xl-7">
+                                {/* <div className="col-xl-7">
                                     <div className="ta-contact-form-wrapper ta-input-field ta-stroke">
                                         <form action="assets/mail.php" method="POST" id="ta-contact-form" className="ta-contact-form">
                                             <div className="row row-gap-20 mt-none-20">
@@ -95,7 +145,7 @@ export default function Contact() {
                                             </div>
                                         </form>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

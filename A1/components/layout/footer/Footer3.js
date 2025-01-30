@@ -67,18 +67,61 @@ export default function Footer3() {
                       Above HDFC Bank, Madhapur, Telangana-500081
                     </p>
                   </div>
-                  <div className="ta-social-links pt-20 d-flex align-items-center">
-                    <Link href="/#">
-                      <i className="fab fa-facebook-f" />
+                  <div className=" pt-20 d-flex align-items-center gap-1">
+                    <Link
+                      href="https://www.facebook.com/a1tvtelugu"
+                      target="_blank"
+                    >
+                      <img
+                        src="/images/facebook.png"
+                        alt="Facebook"
+                        className="social-icon"
+                      />
                     </Link>
-                    <Link href="/#">
-                      <i className="fab fa-twitter" />
+                    <Link
+                      href="https://www.instagram.com/a1tv_telugu_news_official/"
+                      target="_blank"
+                    >
+                      <img
+                        src="/images/instagram.png"
+                        alt="Instagram"
+                        className="social-icon"
+                      />
                     </Link>
-                    <Link href="/#">
-                      <i className="fab fa-instagram" />
+                    <Link href="https://x.com/A1tvTelugu" target="_blank">
+                      <img
+                        src="/images/twitter.png"
+                        alt="Twitter"
+                        className="social-icon"
+                      />
                     </Link>
-                    <Link href="/#">
-                      <i className="fab fa-youtube" />
+
+                    <Link
+                      href="https://m.youtube.com/channel/UCaU9uyxOfbui4-KF_iMwlpQ"
+                      target="_blank"
+                    >
+                      <img
+                        src="/images/youtube.png"
+                        alt="YouTube"
+                        className="social-icon"
+                      />
+                    </Link>
+                    <Link
+                      href="https://www.linkedin.com/in/a1tv-telugu-news/"
+                      target="_blank"
+                    >
+                      <img
+                        src="/images/linkedin.png"
+                        alt="LinkedIn"
+                        className="social-icon"
+                      />
+                    </Link>
+                    <Link href="https://t.me/a1tvtelugu" target="_blank">
+                      <img
+                        src="/images/telegram.png"
+                        alt="LinkedIn"
+                        className="social-icon"
+                      />
                     </Link>
                   </div>
                 </div>
