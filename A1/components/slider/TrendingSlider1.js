@@ -100,6 +100,13 @@ export default function TrendingSlider1() {
        };
        const handleVideoError = (e) => {
         e.target.poster = "/images/A1tv-Logo.png"; // Fallback poster image
+        Object.assign(e.target.style, {
+          width: "30rem",
+          height: "15rem",
+          maxWidth: "100%",
+          objectFit:"contain",
+          padding:"10px",
+        });
         };
   console.log("fuidshfniusadjfhnsif", newsFeed.length);
   return (
@@ -135,6 +142,7 @@ export default function TrendingSlider1() {
                         maxWidth: "100%",
                         zIndex: 2,
                         position: "relative",
+                      
                       }}
                     >
                       Your browser does not support the video tag.

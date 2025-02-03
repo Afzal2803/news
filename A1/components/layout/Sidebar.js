@@ -29,12 +29,69 @@ export default function Sidebar({isMobileMenu,handleMobileMenu}) {
                         <p>
                             <p>+91 90140 87362</p>
                                                     </p>
-                        <div className="ta-social-links d-flex align-items-center pt-55">
+                        {/* <div className="ta-social-links d-flex align-items-center pt-55">
                             <Link href="#"><i className="fab fa-facebook-f" /></Link>
                             <Link href="#"><i className="fab fa-twitter" /></Link>
                             <Link href="#"><i className="fab fa-instagram" /></Link>
                             <Link href="#"><i className="fab fa-youtube" /></Link>
-                        </div>
+                        </div> */}
+                          <div className=" pt-20 d-flex align-items-center gap-1">
+                    <Link
+                      href="https://www.facebook.com/a1tvtelugu"
+                      target="_blank"
+                    >
+                      <img
+                        src="/images/facebook.png"
+                        alt="Facebook"
+                        className="social-icon"
+                      />
+                    </Link>
+                    <Link
+                      href="https://www.instagram.com/a1tv_telugu_news_official/"
+                      target="_blank"
+                    >
+                      <img
+                        src="/images/instagram.png"
+                        alt="Instagram"
+                        className="social-icon"
+                      />
+                    </Link>
+                    <Link href="https://x.com/A1tvTelugu" target="_blank">
+                      <img
+                        src="/images/twitter.png"
+                        alt="Twitter"
+                        className="social-icon"
+                      />
+                    </Link>
+
+                    <Link
+                      href="https://m.youtube.com/channel/UCaU9uyxOfbui4-KF_iMwlpQ"
+                      target="_blank"
+                    >
+                      <img
+                        src="/images/youtube.png"
+                        alt="YouTube"
+                        className="social-icon"
+                      />
+                    </Link>
+                    <Link
+                      href="https://www.linkedin.com/in/a1tv-telugu-news/"
+                      target="_blank"
+                    >
+                      <img
+                        src="/images/linkedin.png"
+                        alt="LinkedIn"
+                        className="social-icon"
+                      />
+                    </Link>
+                    <Link href="https://t.me/a1tvtelugu" target="_blank">
+                      <img
+                        src="/images/telegram.png"
+                        alt="LinkedIn"
+                        className="social-icon"
+                      />
+                    </Link>
+                  </div>
                     </div>
                     {/* <div className="ta-big-menu d-none d-lg-block d-lg-block">
                         <nav>

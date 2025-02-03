@@ -57,6 +57,14 @@ export default function Page() {
   };
   const handleVideoError = (e) => {
     e.target.poster = "/images/A1tv-Logo.png"; // Fallback poster image
+    Object.assign(e.target.style, {
+      width: "30rem",
+      height: "15rem",
+      maxWidth: "100%",
+      objectFit:"contain",
+      padding:"10px",
+      boxShadow: "0px 0px 9px",
+      });
     };
   return (
     <>
