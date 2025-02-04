@@ -6,13 +6,13 @@ import "swiper/css/navigation"
 import "swiper/css/pagination"
 // import VideoPopup from "../elements/VideoPopup"
 
-const swiperOptions = {
-    modules: [Pagination, Navigation],
-    slidesPerView: 1,
-    spaceBetween: 0,
-    loop: true, // Retain the loop if you want the slider to wrap around
-    navigation: true, // Enable navigation buttons
-}
+// const swiperOptions = {
+//     modules: [Pagination, Navigation],
+//     slidesPerView: 1,
+//     spaceBetween: 0,
+//     loop: true, // Retain the loop if you want the slider to wrap around
+//     navigation: true, // Enable navigation buttons
+// }
 
 export default function HeroSlider1() {
     return (
@@ -118,7 +118,7 @@ export default function HeroSlider1() {
                     </div>
                 </SwiperSlide>
             </Swiper> */}
-            <img src="images/1.jpg" alt="home image"/>
+            <img src="images/dark_large_banner.jpg" alt="home image"/>
         </>
     )
 }
