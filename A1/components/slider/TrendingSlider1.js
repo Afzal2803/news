@@ -178,9 +178,9 @@ export default function TrendingSlider1() {
                       <span>{formatDate(article.date)}</span>
                     </li>
                   </ul>
-                  <h3 className="ta-blog-box__title ta-blog-box__title--small ta-border-effect">
+                  <h5 className="ta-blog-box__title ta-blog-box__title--small ta-border-effect">
                     {truncateDescriptionByLetters(article.title, 20)}
-                  </h3>
+                  </h5>
                   <div className="excerpt excerpt__small mt-15">
                     <p className="newsdescription">
                       {truncateDescriptionByLetters(article.description, 200)}

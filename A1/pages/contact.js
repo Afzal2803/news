@@ -6,7 +6,7 @@ export default function Contact() {
         <>
             <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Contact">
                 <div>
-                    <div className="ta-map-section pb-100 pt-100">
+                    <div className="ta-map-section pb-50 pt-100">
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-12">
